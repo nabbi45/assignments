@@ -1,0 +1,11 @@
+my:
+  greeting: Hello
+  list:
+    values : one, two, three
+
+db:
+  connection : "test-connection-string"
+  host : 129.0.0.1
+  port : 2400
+
+management.endpoints.web.exposure.include: "*"
