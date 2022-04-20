@@ -1,0 +1,7 @@
+server:
+  port: 8100
+  
+zuul:
+  routes:
+    doctors-servie:
+      url: http://localost:8083
